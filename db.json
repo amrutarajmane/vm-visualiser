@@ -5,7 +5,7 @@
       "name": "VM-East-01",
       "region": "East US",
       "usage": "45%",
-      "status": "Terminated"
+      "status": "Terminate"
     },
     {
       "id": "2",
@@ -19,14 +19,14 @@
       "name": "VM-Europe-01",
       "region": "Europe Central",
       "usage": "67%",
-      "status": "Idling"
+      "status": "Terminate"
     },
     {
       "id": "4",
       "name": "VM-Asia-03",
       "region": "Asia East",
       "usage": "82%",
-      "status": "Running"
+      "status": "Idling"
     },
     {
       "id": "5",

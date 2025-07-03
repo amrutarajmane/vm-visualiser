@@ -1,0 +1,74 @@
+{
+  "vms": [
+    {
+      "id": "1",
+      "name": "VM-East-01",
+      "region": "East US",
+      "usage": "45%",
+      "status": "Terminated"
+    },
+    {
+      "id": "2",
+      "name": "VM-West-02",
+      "region": "West US",
+      "usage": "20%",
+      "status": "Running"
+    },
+    {
+      "id": "3",
+      "name": "VM-Europe-01",
+      "region": "Europe Central",
+      "usage": "67%",
+      "status": "Idling"
+    },
+    {
+      "id": "4",
+      "name": "VM-Asia-03",
+      "region": "Asia East",
+      "usage": "82%",
+      "status": "Running"
+    },
+    {
+      "id": "5",
+      "name": "VM-India-01",
+      "region": "India South",
+      "usage": "12%",
+      "status": "Running"
+    },
+    {
+      "id": "6",
+      "name": "VM-Canada-04",
+      "region": "Canada Central",
+      "usage": "0%",
+      "status": "Terminated"
+    },
+    {
+      "id": "7",
+      "name": "VM-Brazil-01",
+      "region": "Brazil South",
+      "usage": "56%",
+      "status": "Terminated"
+    },
+    {
+      "id": "8",
+      "name": "VM-Japan-02",
+      "region": "Japan East",
+      "usage": "35%",
+      "status": "Idling"
+    },
+    {
+      "id": "9",
+      "name": "VM-Australia-01",
+      "region": "Australia Southeast",
+      "usage": "93%",
+      "status": "Running"
+    },
+    {
+      "id": "10",
+      "name": "VM-Germany-01",
+      "region": "Germany West",
+      "usage": "5%",
+      "status": "Terminated"
+    }
+  ]
+}

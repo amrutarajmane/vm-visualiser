@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "//server": "Run mock API backend on port 4000",
+    "server": "json-server --watch db.json --port 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

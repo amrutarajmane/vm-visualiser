@@ -1,0 +1,5 @@
+[
+  { "id": 1, "region": "US-East", "usage": "70%", "status": "Running" },
+  { "id": 2, "region": "Europe-West", "usage": "30%", "status": "Idling" },
+  { "id": 3, "region": "Asia-Pacific", "usage": "55%", "status": "Terminated" }
+]

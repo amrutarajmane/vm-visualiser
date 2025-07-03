@@ -1,5 +1,7 @@
-import VmTable from "../components/vmTable";
+
+import VmTable from "/components/VmTable";
 import data from "../data/vmdata.json"
+import { useState,useEffect } from "react";
 export default function Home() {
   const [vms, setVms] = useState(data);
 
@@ -34,6 +36,8 @@ export default function Home() {
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">VM Visualiser</h1>
       <VmTable  vms={vms} onUpdateStatus={updatedStatus}/>
+      
+
       </div>
   );
 }

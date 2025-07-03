@@ -5,7 +5,7 @@
       "name": "VM-East-01",
       "region": "East US",
       "usage": "45%",
-      "status": "Terminate"
+      "status": "Terminated"
     },
     {
       "id": "2",
@@ -19,14 +19,14 @@
       "name": "VM-Europe-01",
       "region": "Europe Central",
       "usage": "67%",
-      "status": "Terminate"
+      "status": "Terminated"
     },
     {
       "id": "4",
       "name": "VM-Asia-03",
       "region": "Asia East",
       "usage": "82%",
-      "status": "Idling"
+      "status": "Running"
     },
     {
       "id": "5",
@@ -40,7 +40,7 @@
       "name": "VM-Canada-04",
       "region": "Canada Central",
       "usage": "0%",
-      "status": "Terminated"
+      "status": "Idling"
     },
     {
       "id": "7",
@@ -54,14 +54,14 @@
       "name": "VM-Japan-02",
       "region": "Japan East",
       "usage": "35%",
-      "status": "Idling"
+      "status": "Running"
     },
     {
       "id": "9",
       "name": "VM-Australia-01",
       "region": "Australia Southeast",
       "usage": "93%",
-      "status": "Running"
+      "status": "Terminated"
     },
     {
       "id": "10",

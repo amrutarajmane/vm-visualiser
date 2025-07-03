@@ -23,8 +23,8 @@ const VmTable = ({ vms, onUpdateStatus }) => {
                   <button
                     type="button"
                     onClick={() => onUpdateStatus(vm.id, "Running")}
-                    className="px-4 py-1.5 text-sm text-green-700 font-medium border border-green-600 rounded hover:bg-green-50"
-                    aria-label={`Start ${vm.region} VM`}
+                    className="px-4 py-1.5 text-sm text-green-700 font-medium border border-green-600 rounded"
+                    
                   >
                     Start
                   </button>
@@ -33,8 +33,8 @@ const VmTable = ({ vms, onUpdateStatus }) => {
                   <button
                     type="button"
                     onClick={() => onUpdateStatus(vm.id, "Idling")}
-                    className="px-4 py-1.5 text-sm text-yellow-700 font-medium border border-yellow-500 rounded hover:bg-yellow-50"
-                    aria-label={`Idle ${vm.region} VM`}
+                    className="px-4 py-1.5 text-sm text-yellow-700 font-medium border border-yellow-500 rounded "
+                    
                   >
                     Idle
                   </button>
@@ -43,8 +43,8 @@ const VmTable = ({ vms, onUpdateStatus }) => {
                   <button
                     type="button"
                     onClick={() => onUpdateStatus(vm.id, "Terminated")}
-                    className="px-4 py-1.5 text-sm text-red-600 font-medium border border-red-500 rounded hover:bg-red-50"
-                    aria-label={`Terminate ${vm.region} VM`}
+                    className="px-4 py-1.5 text-sm text-red-600 font-medium border border-red-500 rounded"
+                    
                   >
                     Terminate
                   </button>

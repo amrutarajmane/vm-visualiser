@@ -1,5 +1,4 @@
-import VmTable from "@/components/vmTable";
-import { useState,useEffect } from "react";
+import VmTable from "../components/vmTable";
 import data from "../data/vmdata.json"
 export default function Home() {
   const [vms, setVms] = useState(data);

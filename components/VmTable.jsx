@@ -1,10 +1,4 @@
 const VmTable = ({ vms, onUpdateStatus }) => {
-  // const handleTerminate = (id) => {
-  //   if (window.confirm("Are you sure you want to terminate this VM?")) {
-  //     onUpdateStatus(id, "Terminated");
-  //   }
-  // };
-
   return (
     <table className="min-w-full border">
       <thead className="bg-gray-100">
